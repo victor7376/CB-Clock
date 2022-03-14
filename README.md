@@ -19,13 +19,13 @@ https://www.amazon.co.uk/ARCELI-MAX7219-Arduino-Microcontroller-Display/dp/B07J2
 
 # EDIT THE FOLLOWING SECTIONS IN *marquee-CBFollow.ino* FILE:
 
-============================ *Your WIFI Network Details* =================================
+====================== *Your WIFI Network Details* =================================
 
 const char* ssid     = "***YOUR_SSID***";          // Your SSID / WiFi Network
 
 const char* password = "***YOUR_WIFI_PASSWORD***";  // Your SSID / WiFi Password
 
-================================ *TimezoneDB Settings* ================================
+========================== *TimezoneDB Settings* ================================
 
 String TIMEDBKEY = "***YOUR_API_KEY_FROM_TIMEZONEDB***"; // Your API Key from https://timezonedb.com/register
 
@@ -40,11 +40,11 @@ const int numberOfHorizontalDisplays = ***4***; // default 4 for standard 4 x 1 
 
 const int numberOfVerticalDisplays = ***1***; // default 1 for a single row height
 
-//================================ *Chaturbate Settings* ================================
+//========================== *Chaturbate Settings* ================================
 
 boolean CHATURBATE_ENABLED = ***false***;            // change to true if you want it enabled
 
-//=============================================================================
+//=======================================================================
 
 String CBFollowUsername = "***YOUR_USERNAME***";      // enter Your username from Chaturbate
 
@@ -58,7 +58,7 @@ boolean CHATURBATE_BALANCE = ***true***;    // To show how many tokens you have
 
 boolean CHATURBATE_CONVERT = ***true***;    // To show tokens converted to Dollars
 
-//=============================================================================
+//=======================================================================
 
 
 
